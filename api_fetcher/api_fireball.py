@@ -79,8 +79,6 @@ def insert_data_in_status_request_data(data_request_formated, source, status):
                     VALUES(%s, %s, %s, %s, %s, %s, %s, %s, %s);
             """
 
-            print(f'{i}   dddddddddddddddddddddddddddddddddddddddddd')
-
             values = (
                 last_id,
                 i[1],
