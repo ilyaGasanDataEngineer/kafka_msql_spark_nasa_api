@@ -6,7 +6,7 @@ import json
 from api_fetcher.apod import fetch_apod_data
 from api_fetcher.neo import fetch_neo_data
 from kafka_producer.producer import create_kafka_producer, send_to_kafka
-from api_fetcher.api_fireball import anparse_api_request
+from kafka_consumers.api_fireball import anparse_api_request
 
 app = Flask(__name__)
 
